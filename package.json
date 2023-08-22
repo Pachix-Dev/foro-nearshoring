@@ -1,0 +1,31 @@
+{
+  "name": "foro-nearshoring",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/foro-nearshoring/",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.0",
+    "react": "18.2.0",
+    "react-bootstrap": "2.8.0",
+    "react-dom": "18.2.0",
+    "react-google-recaptcha": "3.1.0",
+    "react-qr-code": "2.0.12",
+    "react-router-dom": "6.15.0",
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "@vitejs/plugin-react-swc": "3.3.2",
+    "vite": "4.4.5"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "homepage": "https://hfmexico.mx/foro-nearshoring/"
+}

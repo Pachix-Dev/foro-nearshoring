@@ -1,0 +1,116 @@
+.foro-nearshoring {
+  background-image: url('/bgForonearshoring.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.foro-frase {
+  font-size: 20px;
+}
+
+.wrapper-main-foro {
+  background: linear-gradient(to right, rgb(6, 1, 109), rgba(59, 160, 237, 0.3));
+  color: white;
+  height: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+.foro-date {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(1, 134, 250, 1) 51%);
+  color: white;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-size: 1.5em;
+  margin-left: auto;
+}
+
+.foro-date div {
+  padding: 20px 25px;
+}
+
+.foro-date p {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 0.5em;
+  margin: 0;
+  padding-right: 15px;
+}
+
+.foro-date p small {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+}
+
+.Ticket {
+  perspective: 1000px;
+  will-change: transform;
+  transition: transform .5s ease-in-out;
+  user-select: none;
+  background-color: black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.bg-ticket {
+  position: relative;
+  z-index: -1;
+  user-select: none;
+  color: white;
+  background: radial-gradient(75.53% 100.65% at 50% 145.96%, rgba(83, 71, 255, 0.5), rgba(87, 205, 255, 0) 100%);
+  padding: 20px;
+
+}
+
+.Ticket:hover {
+  transition: transform .05s ease-in-out;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+@media (width < 940px) {
+  .foro-nearshoring {
+    height: 100%;
+  }
+
+  .wrapper-main-foro {
+    height: 100%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .foro-date {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .foro-date p {
+    font-size: 25px;
+  }
+
+  .foro-date div {
+    padding: 20px 5px;
+  }
+}
