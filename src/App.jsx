@@ -8,7 +8,7 @@ import { Verify } from './components/Verify'
 export function App () {
   return (
     <>
-      <div className='foro-nearshowring'>
+      <div className='foro-nearshoring'>
         <div className='wrapper-main-foro  pt-5 pb-5'>
           <Routes>
             <Route path='/' element={<Register />} />
@@ -20,8 +20,8 @@ export function App () {
       <footer className=''>
         <Container>
           <div className='d-inline-block text-center'>
-            <img src='/foro-nearshowring/igecoLogo.webp' alt='igeco' width={300} />
-            <img src='/foro-nearshowring/GTO 200 WT.webp' alt='gto-200años' width={130} />
+            <img src='/foro-nearshoring/igecoLogo.webp' alt='igeco' width={300} />
+            <img src='/foro-nearshoring/GTO 200 WT.webp' alt='gto-200años' width={130} />
           </div>
         </Container>
       </footer>

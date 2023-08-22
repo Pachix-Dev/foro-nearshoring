@@ -14,7 +14,7 @@ export function Verify () {
   }
 
   useEffect(() => {
-    fetch('https://hfmexico.mx/foro-nearshoring/backend/verify.php',
+    fetch('https://hfmexico.mx/foro-electromovilidad/backend/verify.php',
       requestOptions)
       .then(response => response.json())
       .then(data => {
