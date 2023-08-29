@@ -5,6 +5,7 @@ import { Suspense, lazy, useRef, useState } from 'react'
 import { Col, Container, Row, Spinner } from 'react-bootstrap'
 import { v4 as uuidv4 } from 'uuid'
 import { useNavigate } from 'react-router-dom'
+import { estados } from '../constans'
 
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
@@ -15,9 +16,25 @@ export function Register () {
   const [sendStatus, setSendStatus] = useState(false)
   const navigate = useNavigate()
 
+  const [estadoSeleccionado, setEstadoSeleccionado] = useState('')
+  const [municipioSeleccionado, setMunicipioSeleccionado] = useState('')
+
+  const handleEstadoChange = (event) => {
+    const estado = event.target.value
+    setEstadoSeleccionado(estado)
+    setMunicipioSeleccionado('')
+  }
+
+  const handleMunicipioChange = (event) => {
+    setMunicipioSeleccionado(event.target.value)
+  }
+
+  const municipios = estadoSeleccionado ? estados[estadoSeleccionado] : []
+
   const onChange = () => {
     setCaptcha(true)
   }
+
 
   const handleSubmit = async (event) => {
     event.preventDefault()
@@ -80,7 +97,7 @@ export function Register () {
         </h1>
         <p className='foro-frase mt-3'>Retos y oportunidades para Guanajuato.</p>
             <h2>¡No pierdas la oportunidad de estar con la <strong style={{color: '#FEBE33'}}>elite del Nearshoring</strong> y conoce las últimas tendencias!</h2>
-       
+          
           <div className='foro-date'>
             <div>
               <p className='border-end'><strong>05</strong><br />
@@ -103,7 +120,7 @@ export function Register () {
          
 
         <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
-          <Row>
+        <Row>
             <Col>
               <Form.Group className='mb-3' controlId='formId'>
                 <Form.Label>Nombre</Form.Label>
@@ -113,17 +130,63 @@ export function Register () {
                 <Form.Label>Email</Form.Label>
                 <Form.Control type='email' name='email' required />
               </Form.Group>
-            </Col>
-            <Col>
               <Form.Group className='mb-3' controlId='formTel'>
                 <Form.Label>Teléfono</Form.Label>
                 <Form.Control type='number' name='telefono' required />
               </Form.Group>
-              <Form.Group className='mb-3' controlId='formEmpresa'>
-                <Form.Label>Empresa</Form.Label>
-                <Form.Control type='text' name='empresa' required />
+            </Col>
+            <Col>
+              <Row>
+                <Col>
+                  <Form.Group className='mb-3' controlId='formEmpresa'>
+                    <Form.Label>Empresa</Form.Label>
+                    <Form.Control type='text' name='empresa' required />
+                  </Form.Group>
+                </Col>
+                <Col>
+                  <Form.Group className='mb-3' controlId='formCargo'>
+                    <Form.Label>Cargo</Form.Label>
+                    <Form.Control type='text' name='cargo' required />
+                  </Form.Group>
+                </Col>
+              </Row>
+              <Form.Group className='mb-3' controlId='formEstado'>
+                <Form.Label>Selecciona un estado:</Form.Label>
+                <Form.Select
+                  onChange={handleEstadoChange}
+                  value={estadoSeleccionado}
+                  name='estado'
+                  required
+                >
+                  <option value=''>-- Selecciona --</option>
+                  {Object.keys(estados).map((estado) => (
+                    <option key={estado} value={estado}>
+                      {estado}
+                    </option>
+                  ))}
+                </Form.Select>
               </Form.Group>
-
+              <Form.Group className='mb-3' controlId='formMunicipio'>
+                <Form.Label>Municipio</Form.Label>
+                {estadoSeleccionado && (
+                  <>
+                    <Form.Label>Selecciona un municipio:</Form.Label>
+                    <Form.Select
+                      onChange={handleMunicipioChange}
+                      value={municipioSeleccionado}
+                      name='municipio'
+                      required
+                    >
+                      <option value=''>-- Selecciona --</option>
+                      {municipios.map((municipio, index) => (
+                        <option key={index} value={municipio}>
+                          {municipio}
+                        </option>
+                      ))}
+                    </Form.Select>
+                  </>
+                )}
+              </Form.Group>
             </Col>
           </Row>
           <Suspense fallback={<div>Loading reCAPTCHA...</div>}>
@@ -140,6 +203,35 @@ export function Register () {
               : 'Obtén pase gratis'}
           </Button>
         </Form>
+
+        <p className='foro-frase mt-3'>
+            El Nearshoring es el reposicionamiento de las empresas globales, para establecerse en un
+            lugar, cercano a su mercado objetivo, es un modelo industrial que promete cambiar el rumbo
+            de la economía porque genera empleos, inversión extranjera, infraestructura y desarrollo.
+            El Foro Nearshoring Retos y Oportunidades para Guanajuato es un espacio creado por Italian
+            German Exhibition Company Mexico y Gobierno del Estado de Guanajuato, donde se abrirá
+            el dialogo para analizar las áreas de aprovechamiento de la industria guanajuatense en este
+            relevante tema.
+          </p>
+
+        <h2>Temas segmentos de enfoque</h2>
+        <ul>
+          <li>
+            Economía
+          </li>
+          <li>
+            Inversión extranjera
+          </li>
+          <li>
+            Infraestructura y desarrollo
+          </li>
+          <li>
+            Alianzas estratégicas
+          </li>
+          <li>
+            Sector industrial
+          </li>
+        </ul>
       </Container>
 
     </>
