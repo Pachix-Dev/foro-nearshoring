@@ -73,7 +73,7 @@ export function Register () {
           setSendStatus(false)
           setMessage('Ya te encuentras registrado, por favor revisa tu correo.')
         } else if (data.status) {
-          const statusEmail = await fetch('https://hfmexico.mx/foro-electromovilidad/backend/email/send-email', requestOptions2)
+          const statusEmail = await fetch('https://hfmexico.mx/foro-electromovilidad/backend/email/send-email2', requestOptions2)
           const dataEmail = await statusEmail.json()
           navigate('/registro-gratis', { state: { qrcode, formData, dataEmail } })
         } else {
