@@ -88,6 +88,44 @@ footer {
   padding: 20px;
 }
 
+.program-wrapper-speakers button {
+  background-color: transparent;
+  border: none;
+}
+
+.program-wrapper-speakers img {
+  cursor: pointer;
+  transition: all .5s ease-out;
+}
+.speaker-item {
+  position: relative;
+  margin: 0 0 1.5em;
+  overflow: hidden;
+}
+
+.speaker-item img {
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: all .3s ease-out;
+  object-fit: cover;
+  transition: all .3s ease-in;
+}
+
+.speaker-item:hover img {
+  filter: grayscale(0%);
+  box-shadow: -10px -8px 3px #e8001e;
+  transform: scale(1.1);
+  object-position: top;
+}
+
+.info_speakers {
+  position: absolute;
+  width: 100%;
+  padding: 5px 10px;
+  bottom: 0;
+  color: white;
+  background: linear-gradient(to top, black, transparent);
+}
 @media (width < 940px) {
   .foro-nearshoring {
     height: 100%;

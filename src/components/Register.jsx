@@ -6,6 +6,8 @@ import { Col, Container, Row, Spinner } from 'react-bootstrap'
 import { v4 as uuidv4 } from 'uuid'
 import { useNavigate } from 'react-router-dom'
 import { estados } from '../constans'
+import { speakers } from '../constans_speakers'
+import { DetailSpeaker } from './DetailSpeaker'
 
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
@@ -18,7 +20,14 @@ export function Register () {
 
   const [estadoSeleccionado, setEstadoSeleccionado] = useState('')
   const [municipioSeleccionado, setMunicipioSeleccionado] = useState('')
+  
+  const [modalShow, setModalShow] = useState(false)
+  const [detailSpeaker, setDetailSpeaker] = useState({})
 
+  const handleModal2 = (speaker) => {
+    setDetailSpeaker(speaker)
+    setModalShow(true)
+  }
   const handleEstadoChange = (event) => {
     const estado = event.target.value
     setEstadoSeleccionado(estado)
@@ -232,6 +241,29 @@ export function Register () {
             Sector industrial
           </li>
         </ul>
+
+        <h1 className='mt-5 text-light'>Ponentes</h1>
+        <p className='text-light' />
+        <div className='mt-5 pb-5 program-wrapper-speakers'>
+          {speakers.map((speaker, index) => (
+            <button key={index} onClick={() => handleModal2(speaker)}>
+              <div className='speaker-item h-100'>
+                <img src={speaker.avatar} width={300} height={300} alt={speaker.name} />
+                <div className='info_speakers'>
+                  <h2>{speaker.name}</h2>
+                  <p className='m-0'>{speaker.rol}</p>
+                  <small>{speaker.company}</small>
+                </div>
+              </div>
+            </button>
+          ))}
+          <div />
+        </div>
+        <DetailSpeaker
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+          speaker={detailSpeaker}
+        />
       </Container>
 
     </>
