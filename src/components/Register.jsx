@@ -128,7 +128,63 @@ export function Register () {
           </div>
          
 
-        <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
+        
+
+        <p className='foro-frase mt-3'>
+            El Nearshoring es el reposicionamiento de las empresas globales, para establecerse en un
+            lugar, cercano a su mercado objetivo, es un modelo industrial que promete cambiar el rumbo
+            de la economía porque genera empleos, inversión extranjera, infraestructura y desarrollo.
+            El Foro Nearshoring Retos y Oportunidades para Guanajuato es un espacio creado por Italian
+            German Exhibition Company Mexico y Gobierno del Estado de Guanajuato, donde se abrirá
+            el dialogo para analizar las áreas de aprovechamiento de la industria guanajuatense en este
+            relevante tema.
+          </p>
+
+        <h2>Temas segmentos de enfoque</h2>
+        <ul>
+          <li>
+            Economía
+          </li>
+          <li>
+            Inversión extranjera
+          </li>
+          <li>
+            Infraestructura y desarrollo
+          </li>
+          <li>
+            Alianzas estratégicas
+          </li>
+          <li>
+            Sector industrial
+          </li>
+        </ul>
+
+        <h1 className='mt-5 text-light'>Ponentes</h1>
+        <p className='text-light' />
+        <div className='mt-5 pb-5 program-wrapper-speakers'>
+          {speakers.map((speaker, index) => (
+            <button key={index} onClick={() => handleModal2(speaker)}>
+              <div className='speaker-item h-100'>
+                <img src={speaker.avatar} width={300} height={300} alt={speaker.name} />
+                <div className='info_speakers'>
+                  <h2>{speaker.name}</h2>
+                  <p className='m-0'>{speaker.rol}</p>
+                  <small>{speaker.company}</small>
+                </div>
+              </div>
+            </button>
+          ))}
+          <div />
+        </div>
+        <DetailSpeaker
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+          speaker={detailSpeaker}
+        />
+      </Container>
+
+      <h1 className='mt-5 text-light'>Registro</h1>
+      <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
         <Row>
             <Col>
               <Form.Group className='mb-3' controlId='formId'>
@@ -211,61 +267,7 @@ export function Register () {
               ? <><Spinner as='span' animation='border' size='sm' role='status' aria-hidden='true' /><span> Loading...</span></>
               : 'Obtén pase gratis'}
           </Button>
-        </Form>
-
-        <p className='foro-frase mt-3'>
-            El Nearshoring es el reposicionamiento de las empresas globales, para establecerse en un
-            lugar, cercano a su mercado objetivo, es un modelo industrial que promete cambiar el rumbo
-            de la economía porque genera empleos, inversión extranjera, infraestructura y desarrollo.
-            El Foro Nearshoring Retos y Oportunidades para Guanajuato es un espacio creado por Italian
-            German Exhibition Company Mexico y Gobierno del Estado de Guanajuato, donde se abrirá
-            el dialogo para analizar las áreas de aprovechamiento de la industria guanajuatense en este
-            relevante tema.
-          </p>
-
-        <h2>Temas segmentos de enfoque</h2>
-        <ul>
-          <li>
-            Economía
-          </li>
-          <li>
-            Inversión extranjera
-          </li>
-          <li>
-            Infraestructura y desarrollo
-          </li>
-          <li>
-            Alianzas estratégicas
-          </li>
-          <li>
-            Sector industrial
-          </li>
-        </ul>
-
-        <h1 className='mt-5 text-light'>Ponentes</h1>
-        <p className='text-light' />
-        <div className='mt-5 pb-5 program-wrapper-speakers'>
-          {speakers.map((speaker, index) => (
-            <button key={index} onClick={() => handleModal2(speaker)}>
-              <div className='speaker-item h-100'>
-                <img src={speaker.avatar} width={300} height={300} alt={speaker.name} />
-                <div className='info_speakers'>
-                  <h2>{speaker.name}</h2>
-                  <p className='m-0'>{speaker.rol}</p>
-                  <small>{speaker.company}</small>
-                </div>
-              </div>
-            </button>
-          ))}
-          <div />
-        </div>
-        <DetailSpeaker
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-          speaker={detailSpeaker}
-        />
-      </Container>
-
+        </Form>       
     </>
   )
 }
