@@ -25,7 +25,17 @@ const speakers = [
     rol: 'Directora General',
     avatar: '/foro-nearshoring/speakers/ClaudiaEsteves.webp',
     sketch: 'Cuenta con una destacada trayectoria profesional de más de 33 años, siempre comprometida con el desarrollo de México. Ha ocupado cargos en el sector bancario y de promoción internacional en Bancomext y ProMéxico, en áreas de crédito, diseño de programas financieros y promoción de comercio e inversión extranjera en México, desempeñando cargos como Consejero Comercial de México en Italia; Consejero Comercial Adjunto en Alemania; Directora Estatal en Veracruz; y Directora Ejecutiva de Estrategia en la Unidad de Inteligencia de Negocios, entre otros. Asimismo, destaca su participación como miembro del equipo negociador para la modernización del TLCAN/TMEC y su papel como miembro en distintos consejos y comités. Ha impartido conferencias de relevancia internacional y cuenta con diversas publicaciones sobre las industrias estratégicas en México. Actualmente, es la Directora General de la Asociación Mexicana de Parques Industriales Privados, A.C. (AMPIP), organismo que representa uno de los pilares del desarrollo económico del país.'
+    },
+    {
+        id: 4,
+    conference: '',
+    name: ' Ari Ben Saks',
+    company: 'EY México',
+    rol: 'Associate Partner de Impuestos y Coordinador de los servicios de Nearshoring de EY México ',
+    avatar: '/foro-nearshoring/speakers/AriBen.webp',
+    sketch: 'Mi carrera abarca más de 20 años de experiencia como desarrollador de nuevos negocios en Asia, donde tuve el privilegio de ayudar a cerrar y aterrizar muchos proyectos entre China, Taiwán y México. Estos proyectos fueron en diversos campos e industrias como minería, energía, manufactura, infraestructura, automotriz, telecomunicaciones y materias primas, entre otros. Mi experiencia laboral me ha permitido desarrollar un profundo conocimiento de la cultura empresarial asiática y china y saber cómo interactuar para generar negocios exitosos en México y América Latina.En mis experiencias laborales previas, estuve a cargo de misiones comerciales de alto nivel visitando México o China. Mi trabajo incluyó actividades que abarcaron el desarrollo y la promoción del comercio y las inversiones bilaterales y me centré en el aterrizaje suave de las inversiones chinas y taiwanesas en México (SIED) y las inversiones mexicanas en China. También era mi responsabilidad proporcionar servicios de consultoría para resolver problemas de política comercial y negocios relacionados con empresas de China que intentaban invertir en México y empresas mexicanas que invertían o iniciaban operaciones en China. En la actualidad, soy Director de Desarrollo de Nuevos Negocios de Asia y Associate Partner de Servicios Fiscales y Legales en EY México'
     }
+
 
 ]
   export { speakers }
