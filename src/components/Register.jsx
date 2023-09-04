@@ -100,7 +100,7 @@ export function Register () {
   return (
     <>
     <div className='vh-100'>
-        <video className='bg-nearshoring' autoPlay muted loop src='/bgNearshoring.webm' />
+        <video className='bg-nearshoring' autoPlay muted loop src='/foro-nearshoring/bgNearshoring.webm' />
       <Container className='pt-5 mb-3 nearshoring-text'>
         <h1 className='fw-bold'>
           FORO <br />NEARSHORING
