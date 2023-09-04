@@ -9,7 +9,7 @@ export function App () {
   return (
     <>
       <div className='foro-nearshoring'>
-        <div className='wrapper-main-foro  pt-5 pb-5'>
+        <div className='wrapper-main-foro pb-5'>
           <Routes>
             <Route path='/' element={<Register />} />
             <Route path='/registro-gratis' element={<Pass />} />

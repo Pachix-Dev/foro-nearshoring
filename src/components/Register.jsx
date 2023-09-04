@@ -99,7 +99,9 @@ export function Register () {
   }
   return (
     <>
-      <Container className='pt-5 mb-3'>
+    <div className='vh-100'>
+        <video className='bg-nearshoring' autoPlay muted loop src='/bgNearshoring.webm' />
+      <Container className='pt-5 mb-3 nearshoring-text'>
         <h1 className='fw-bold'>
           FORO <br />NEARSHORING
           
@@ -126,11 +128,7 @@ export function Register () {
               </p>
             </div>
           </div>
-         
-
-        
-
-        <p className='foro-frase mt-3'>
+          <p className='foro-frase mt-3'>
             El Nearshoring es el reposicionamiento de las empresas globales, para establecerse en un
             lugar, cercano a su mercado objetivo, es un modelo industrial que promete cambiar el rumbo
             de la economía porque genera empleos, inversión extranjera, infraestructura y desarrollo.
@@ -140,6 +138,10 @@ export function Register () {
             relevante tema.
           </p>
 
+        </Container>
+        </div>
+        <Container className='mt-5'>        
+       
         <h2>Temas segmentos de enfoque</h2>
         <ul>
           <li>
