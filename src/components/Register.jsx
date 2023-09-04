@@ -181,7 +181,7 @@ export function Register () {
           onHide={() => setModalShow(false)}
           speaker={detailSpeaker}
         />
-      </Container>
+      
 
       <h1 className='mt-5 text-light'>Registro</h1>
       <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
@@ -267,7 +267,8 @@ export function Register () {
               ? <><Spinner as='span' animation='border' size='sm' role='status' aria-hidden='true' /><span> Loading...</span></>
               : 'Obtén pase gratis'}
           </Button>
-        </Form>       
+        </Form>   
+        </Container>    
     </>
   )
 }
