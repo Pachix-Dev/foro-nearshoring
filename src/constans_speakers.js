@@ -40,7 +40,7 @@ const speakers = [
     conference: '',
     name: ' Luis Ernesto Rojas Ávila',
     company: 'COFOCE',
-    rol: 'Director General de COFOCE',
+    rol: 'Director General',
     avatar: '/foro-nearshoring/speakers/LuisErnestoRojas.webp',
     sketch: 'Ha colaborado y ha sido columnista de las revistas Expansión, Players of Life y Negocios Internacionales, en temas asociados con la internacionalización de las empresas y el comercio exterior, además es conferencista TED. Ha sido catedrático en diferentes universidades en materias relacionadas con la globalización económica y comercio internacional, a la par que imparte desde hace una década conferencias en México y América Latina en temas asociados con la internacionalización de las empresas y los Negocios Digitales. Cuenta con más de 20 años de experiencia en el Comercio Exterior y desde finales del 2015 ha ocupado el cargo de Director General de COFOCE, organismo en cual inició siendo practicante hasta ascender a dicho cargo; ha organizado y liderado misiones y agendas comerciales a múltiples países y asesorado a más de 1,000 empresas de múltiples sectores (Autopartes, Agroalimentos, Metalmecánica, Calzado, Moda y vestir, Joyería, Artículos de Regalo, decoración y muebles) en su expansión e internacionalización a escala global. En Diciembre de 2016 el organismo bajo su mando (COFOCE) recibió el Premio Nacional de Exportación de manos del Presidente de la República Mexicana, reconociendo a este mismo como el mejor organismo promotor de Comercio Exterior a nivel nacional. En la actualidad continúa como Director General de COFOCE y funge como miembro del Consejo Mexicano de Comercio Exterior (COMCE), entre otros.'
     }
