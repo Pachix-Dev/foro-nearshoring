@@ -107,7 +107,9 @@ export function Register () {
           
         </h1>
         <p className='foro-frase mt-3'>Retos y oportunidades para Guanajuato.</p>
-            <h2>¡No pierdas la oportunidad de estar con la <strong style={{color: '#FEBE33'}}>elite del Nearshoring</strong> y conoce las últimas tendencias!</h2>
+            <h2>¡No pierdas la oportunidad de estar con los especialistas actuales del<strong style={{color: '#FEBE33'}}> Nearshoring</strong> y conoce las últimas tendencias!<br></br>
+                Se analizará las áreas de aprovechamiento en este relevante tema que genera empleos, inversión extranjera, infraestructura y desarrollo en la Industria Guanajuatense.
+            </h2>
           
           <div className='foro-date'>
             <div>
