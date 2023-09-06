@@ -107,7 +107,7 @@ export function Register () {
           
         </h1>
         <p className='foro-frase mt-3'>Retos y oportunidades para Guanajuato.</p>
-            <h2>¡No pierdas la oportunidad de estar con los especialistas <br></br> actuales del<strong style={{color: '#FEBE33'}}> Nearshoring</strong> y conoce las últimas tendencias!<br></br>
+            <h2>¡No pierdas la oportunidad de estar con los especialistas <br></br> actuales del<strong style={{color: '#FEBE33'}}> Nearshoring</strong> y conoce las últimas tendencias!<br></br><br></br>
                 Se analizará las áreas de aprovechamiento en este relevante tema que genera empleos, inversión extranjera, infraestructura y desarrollo en la Industria Guanajuatense.
             </h2>
           
@@ -129,17 +129,7 @@ export function Register () {
                 <small>LEÓN</small>
               </p>
             </div>
-          </div>
-          <p className='foro-frase mt-3'>
-            El Nearshoring es el reposicionamiento de las empresas globales, para establecerse en un
-            lugar, cercano a su mercado objetivo, es un modelo industrial que promete cambiar el rumbo
-            de la economía porque genera empleos, inversión extranjera, infraestructura y desarrollo.
-            El Foro Nearshoring Retos y Oportunidades para Guanajuato es un espacio creado por Italian
-            German Exhibition Company Mexico y Gobierno del Estado de Guanajuato, donde se abrirá
-            el dialogo para analizar las áreas de aprovechamiento de la industria guanajuatense en este
-            relevante tema.
-          </p>
-
+          </div>          
         </Container>
         </div>
         <Container className='mt-5'>        
