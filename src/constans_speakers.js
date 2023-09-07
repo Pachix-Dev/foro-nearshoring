@@ -36,16 +36,23 @@ const speakers = [
     sketch: 'Mi carrera abarca más de 20 años de experiencia como desarrollador de nuevos negocios en Asia, donde tuve el privilegio de ayudar a cerrar y aterrizar muchos proyectos entre China, Taiwán y México. Estos proyectos fueron en diversos campos e industrias como minería, energía, manufactura, infraestructura, automotriz, telecomunicaciones y materias primas, entre otros. Mi experiencia laboral me ha permitido desarrollar un profundo conocimiento de la cultura empresarial asiática y china y saber cómo interactuar para generar negocios exitosos en México y América Latina.En mis experiencias laborales previas, estuve a cargo de misiones comerciales de alto nivel visitando México o China. Mi trabajo incluyó actividades que abarcaron el desarrollo y la promoción del comercio y las inversiones bilaterales y me centré en el aterrizaje suave de las inversiones chinas y taiwanesas en México (SIED) y las inversiones mexicanas en China. También era mi responsabilidad proporcionar servicios de consultoría para resolver problemas de política comercial y negocios relacionados con empresas de China que intentaban invertir en México y empresas mexicanas que invertían o iniciaban operaciones en China. En la actualidad, soy Director de Desarrollo de Nuevos Negocios de Asia y Associate Partner de Servicios Fiscales y Legales en EY México'
     },
     {
-        id: 5,
+    id: 5,
     conference: '',
     name: ' Luis Ernesto Rojas Ávila',
     company: 'COFOCE',
     rol: 'Director General',
     avatar: '/foro-nearshoring/speakers/LuisErnestoRojas.webp',
     sketch: 'Ha colaborado y ha sido columnista de las revistas Expansión, Players of Life y Negocios Internacionales, en temas asociados con la internacionalización de las empresas y el comercio exterior, además es conferencista TED. Ha sido catedrático en diferentes universidades en materias relacionadas con la globalización económica y comercio internacional, a la par que imparte desde hace una década conferencias en México y América Latina en temas asociados con la internacionalización de las empresas y los Negocios Digitales. Cuenta con más de 20 años de experiencia en el Comercio Exterior y desde finales del 2015 ha ocupado el cargo de Director General de COFOCE, organismo en cual inició siendo practicante hasta ascender a dicho cargo; ha organizado y liderado misiones y agendas comerciales a múltiples países y asesorado a más de 1,000 empresas de múltiples sectores (Autopartes, Agroalimentos, Metalmecánica, Calzado, Moda y vestir, Joyería, Artículos de Regalo, decoración y muebles) en su expansión e internacionalización a escala global. En Diciembre de 2016 el organismo bajo su mando (COFOCE) recibió el Premio Nacional de Exportación de manos del Presidente de la República Mexicana, reconociendo a este mismo como el mejor organismo promotor de Comercio Exterior a nivel nacional. En la actualidad continúa como Director General de COFOCE y funge como miembro del Consejo Mexicano de Comercio Exterior (COMCE), entre otros.'
-    }
-
-
+    },
+    {
+        id: 6,
+        conference: '',
+        name: 'Esaú Garza de Vega',
+        company: 'Alternativas y Soluciones Múltiples del Sureste (ASMS)',
+        rol: 'Director General ASMS',
+        avatar: '/foro-electromovilidad/speakers/EsauGarza.webp',
+        sketch: 'Esaú Garza es Licenciado en Comercio Exterior, cuenta con experiencia como consejero Comercial en las embajadas de México en Japón (2008-2013) y Australia (2015 -2019), fue Secretario de Desarrollo Económico para el Estado de Aguascalientes (2013-2015). Destaca por su experiencia y trayectoria en la promoción de México como destino de inversión con un fuerte enfoque a la industria automotriz y de manufacturas avanzadas. Certificado como Perito Traductor Oficial en los idiomas inglés y japonés. Ha impartido ponencias en relación con las técnicas de negociación aplicables a la cultura japonesa en universidades y foros, así mismo ha participado en seminarios sobre oportunidades de negocios en sectores estratégicos ante empresarios. Actualmente es director de la empresa Alternativas y Soluciones Múltiples del Sureste (ASMS) con base en Mérida, Yucatán desde donde hace sinergia con diferentes estados de la República Mexicana diseñando estrategias de promoción a nivel internacional y atracción de proyectos de inversión para complementar cadenas de valor. Esau funge también como colaborador y consultor experto para el Centro Internacional de Excelencia par Latinoamérica y el Caribe de las Naciones Unidas en la administración de sostenible de recursos naturales y energía ONU – ICE – SRM, destacando la participación en el rubro de consultoría, desarrollo estratégico y atención a los objetivos de la Agenda 2030 con un enfoque los ejes ambiental y social.'
+      },
 ]
   export { speakers }
   
