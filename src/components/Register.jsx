@@ -8,6 +8,7 @@ import { useNavigate } from 'react-router-dom'
 import { estados } from '../constans'
 import { speakers } from '../constans_speakers'
 import { DetailSpeaker } from './DetailSpeaker'
+import { Program } from './program'
 
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
@@ -102,10 +103,7 @@ export function Register () {
     <div className='vh-100'>
         <video className='bg-nearshoring' autoPlay muted loop src='/foro-nearshoring/bgNearshoring.webm' />
       <Container className='pt-5 mb-3 nearshoring-text'>
-        <h1 className='fw-bold'>
-          FORO <br />NEARSHORING
-          
-        </h1>
+        <h1 className='fw-bold'> FORO <br />NEARSHORING</h1>
         <p className='foro-frase mt-3'>Retos y oportunidades para Guanajuato.</p>
             <h2>¡No pierdas la oportunidad de estar con los especialistas <br></br> actuales del<strong style={{color: '#FEBE33'}}> Nearshoring</strong> y conoce las últimas tendencias!<br></br><br></br>
                 Se analizará las áreas de aprovechamiento en este relevante tema que genera empleos, inversión extranjera, infraestructura y desarrollo en la Industria Guanajuatense.
@@ -132,8 +130,7 @@ export function Register () {
           </div>          
         </Container>
         </div>
-        <Container className='mt-5'>        
-       
+        <Container className='mt-5'>
         <h2>Temas segmentos de enfoque</h2>
         <ul>
           <li>
@@ -152,7 +149,7 @@ export function Register () {
             Sector industrial
           </li>
         </ul>
-
+        <Program />{/* seccion de programa de actividades */}
         <h1 className='mt-5 text-light'>Ponentes</h1>
         <p className='text-light' />
         <div className='mt-5 pb-5 program-wrapper-speakers'>

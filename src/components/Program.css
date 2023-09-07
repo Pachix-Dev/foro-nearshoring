@@ -1,0 +1,140 @@
+
+.program-wrapper h1 {font-size: 3em;}
+  
+  .program-wrapper-speakers button {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .program-wrapper-speakers img {
+    cursor: pointer;
+    transition: all .5s ease-out;
+  }
+  
+  .program-date-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+    padding: 30px 0;
+    gap: 50px;
+    border-bottom: solid 2px #ffffff;
+  }
+  
+  .program-dates a>strong {
+    font-size: 1.125rem;
+    line-height: 1;
+    letter-spacing: 0.7px;
+  }
+  
+  .program-dates a>span {
+    margin-top: 0.5rem;
+    color: rgb(202, 205, 207);
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+  
+  .program-dates h4 {
+    color: white;
+  }
+  .title-speaker{color: #fff;}
+  .program-date-avatar {
+    transition: .3s ease-in-out;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  .img-logo{width: 200px;}
+  
+  .program-date-avatar:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 1px #000, 0 0 0 2px #54c8fa, 0 0 22px 0 #54c8fa;
+  }
+  
+  .program-dates li {
+    padding: 0;
+  }
+  
+  .program-dates .accordion-button:focus {
+    border: none;
+    box-shadow: none;
+  }
+  
+  .program-dates .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .program-dates .accordion-item {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .program-dates .accordion-button {
+    display: inline;
+    padding: 0;
+  }
+  
+  .program-dates button {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    padding: 10px 35px;
+    text-align: left;
+  }
+  
+  .program-dates .nav-tabs .nav-link.active {
+    background-color:#ff0505;
+  }
+  
+  .program-dates .accordion-body {
+    padding: 0;
+    color: white;
+  }
+  
+  .speaker-item {
+    position: relative;
+    margin: 0 0 1.5em;
+    overflow: hidden;
+  }
+  
+  .speaker-item img {
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: all .3s ease-out;
+    object-fit: cover;
+    transition: all .3s ease-in;
+  }
+  
+  .speaker-item:hover img {
+    filter: grayscale(0%);
+    box-shadow: -10px -8px 3px #e8001e;
+    transform: scale(1.1);
+    object-position: top;
+  }
+  
+  .info_speakers {
+    position: absolute;
+    width: 100%;
+    padding: 5px 10px;
+    bottom: 0;
+    color: white;
+    background: linear-gradient(to top, black, transparent);
+  }
+  
+  .sub-title{ font-size: 18px;}
+  
+  @media (max-width: 767px) {
+    .program-date-item {
+      display: inherit;
+    }
+    .program-wrapper h1{
+      font-size: 45px;
+    }
+
+    .img-responsive{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
