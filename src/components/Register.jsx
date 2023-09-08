@@ -9,6 +9,7 @@ import { estados } from '../constans'
 import { speakers } from '../constans_speakers'
 import { DetailSpeaker } from './DetailSpeaker'
 import { Program } from './Program'
+import { Menu } from './Menu'
 
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
@@ -100,57 +101,63 @@ export function Register () {
   }
   return (
     <>
+    <Menu />
     <div className='vh-100'>
         <video className='bg-nearshoring' autoPlay muted loop src='/foro-nearshoring/bgNearshoring.webm' />
       <Container className='pt-5 mb-3 nearshoring-text'>
-        <h1 className='fw-bold'> FORO <br />NEARSHORING</h1>
+        <h1 className='fw-bold text-center'> FORO NEARSHORING</h1>
         <p className='foro-frase mt-3'>Retos y oportunidades para Guanajuato.</p>
-            <h2>¡No pierdas la oportunidad de estar con los especialistas <br></br> actuales del<strong style={{color: '#FEBE33'}}> Nearshoring</strong> y conoce las últimas tendencias!<br></br><br></br>
-                Se analizará las áreas de aprovechamiento en este relevante tema que genera empleos, inversión extranjera, infraestructura y desarrollo en la Industria Guanajuatense.
-            </h2>
-          
-          <div className='foro-date'>
-            <div>
-              <p className='border-end'><strong>05</strong><br />
-                <small>Octubre</small>
-              </p>
+        <h2>¡No pierdas la oportunidad de estar con los especialistas <br></br> actuales del<strong style={{color: '#FEBE33'}}> Nearshoring</strong> y conoce las últimas tendencias!</h2>
+        <p className='foro-frase mt-5'> Analizaremos las áreas de aprovechamiento en este relevante tema que genera empleos, inversión extranjera, infraestructura y desarrollo en la Industria Guanajuatense.</p>
+        <div className='foro-date'>
+          <div>
+            <p className='border-end'><strong>05</strong><br />
+              <small>Octubre</small>
+            </p>
 
-            </div>
-            <div>
-              <p className='border-end'><strong>13:30</strong><br />
-                <small>HRS</small>
-              </p>
+          </div>
+          <div>
+            <p className='border-end'>
+              <strong>13:30 - 18:30</strong><br />
+              <small>HRS</small>
+            </p>
 
-            </div>
-            <div>
-              <p><strong>POLIFORUM</strong><br />
-                <small>LEÓN</small>
-              </p>
-            </div>
-          </div>          
+          </div>
+          <div>
+            <p><strong>POLIFORUM</strong><br />
+              <small>LEÓN</small>
+            </p>
+          </div>
+        </div>
+        <p><strong>Entrada gratuita</strong></p>          
         </Container>
         </div>
         <Container className='mt-5'>
-        <h2>Temas segmentos de enfoque</h2>
-        <ul>
-          <li>
-            Economía
-          </li>
-          <li>
-            Inversión extranjera
-          </li>
-          <li>
-            Infraestructura y desarrollo
-          </li>
-          <li>
-            Alianzas estratégicas
-          </li>
-          <li>
-            Sector industrial
-          </li>
-        </ul>
+        <h2 className='text-center'>Temas segmentos de enfoque</h2>
+        <Row className='mt-5'>
+          <Col md={4} className='mt-5 text-center'>
+            <img src='/enfoques-economy.svg' width={100} height={100} alt='temas' />
+            <p className='mt-4 fw-bold'>Economía</p>
+          </Col>
+          <Col  md={4} className='mt-5 text-center'>
+            <img src='/enfoques-inversion.svg' width={100} height={100} alt='temas' />
+            <p className='mt-4 fw-bold'>Inversión extranjera</p>
+          </Col>
+          <Col  md={4} className='mt-5 text-center'>
+            <img src='/enfoques-desarrollo.svg' width={100} height={100} alt='temas' />
+            <p className='mt-4 fw-bold'>Infraestructura y desarrollo</p>
+          </Col>
+          <Col  md={4} className='mx-auto mt-5 text-center'>
+            <img src='/enfoques-alianza.svg' width={100} height={100} alt='temas' />
+            <p className='mt-4 fw-bold'>Alianzas estratégicas</p>
+          </Col>
+          <Col  md={4} className='mx-auto mt-5 text-center'>
+            <img src='/enfoques-industria.svg' width={100} height={100} alt='temas' />
+            <p className='mt-4 fw-bold'>Sector industrial</p>
+          </Col>
+        </Row>        
         <Program />
-        <h1 className='mt-5 text-light'>Ponentes</h1>
+        <h1 className='mt-5 text-light' id='ponentes'>Ponentes</h1>
         <p className='text-light' />
         <div className='mt-5 pb-5 program-wrapper-speakers'>
           {speakers.map((speaker, index) => (
@@ -174,8 +181,8 @@ export function Register () {
         />
       
 
-      <h1 className='mt-5 text-light'>Registro</h1>
-      <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit}>
+      <h1 className='mt-5 text-light' id="registro">Registro</h1>
+      <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit} >
         <Row>
             <Col>
               <Form.Group className='mb-3' controlId='formId'>
