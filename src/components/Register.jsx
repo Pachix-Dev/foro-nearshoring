@@ -136,7 +136,7 @@ export function Register () {
         <h2 className='text-center'>Temas segmentos de enfoque</h2>
         <Row className='mt-5'>
           <Col md={4} className='mt-5 text-center'>
-            <img src='/foro-nearshoring/foro-nearshoring/enfoques-economy.svg' width={100} height={100} alt='temas' />
+            <img src='/foro-nearshoring/enfoques-economy.svg' width={100} height={100} alt='temas' />
             <p className='mt-4 fw-bold'>Economía</p>
           </Col>
           <Col  md={4} className='mt-5 text-center'>
