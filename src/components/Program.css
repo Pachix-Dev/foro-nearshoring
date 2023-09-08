@@ -138,7 +138,7 @@
     }
   
     .program-date-avatar {
-      width: calc(50% - 50px); /* El 50% del ancho de la columna, restando el espacio entre las imágenes */
+      /* width: calc(50% - 50px); El 50% del ancho de la columna, restando el espacio entre las imágenes */
       margin: 5px; /* Espacio entre las imágenes */
     }
   
