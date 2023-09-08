@@ -136,23 +136,23 @@ export function Register () {
         <h2 className='text-center'>Temas segmentos de enfoque</h2>
         <Row className='mt-5'>
           <Col md={4} className='mt-5 text-center'>
-            <img src='/enfoques-economy.svg' width={100} height={100} alt='temas' />
+            <img src='/foro-nearshoring/foro-nearshoring/enfoques-economy.svg' width={100} height={100} alt='temas' />
             <p className='mt-4 fw-bold'>Economía</p>
           </Col>
           <Col  md={4} className='mt-5 text-center'>
-            <img src='/enfoques-inversion.svg' width={100} height={100} alt='temas' />
+            <img src='/foro-nearshoring/enfoques-inversion.svg' width={100} height={100} alt='temas' />
             <p className='mt-4 fw-bold'>Inversión extranjera</p>
           </Col>
           <Col  md={4} className='mt-5 text-center'>
-            <img src='/enfoques-desarrollo.svg' width={100} height={100} alt='temas' />
+            <img src='/foro-nearshoring/enfoques-desarrollo.svg' width={100} height={100} alt='temas' />
             <p className='mt-4 fw-bold'>Infraestructura y desarrollo</p>
           </Col>
           <Col  md={4} className='mx-auto mt-5 text-center'>
-            <img src='/enfoques-alianza.svg' width={100} height={100} alt='temas' />
+            <img src='/foro-nearshoring/enfoques-alianza.svg' width={100} height={100} alt='temas' />
             <p className='mt-4 fw-bold'>Alianzas estratégicas</p>
           </Col>
           <Col  md={4} className='mx-auto mt-5 text-center'>
-            <img src='/enfoques-industria.svg' width={100} height={100} alt='temas' />
+            <img src='/foro-nearshoring/enfoques-industria.svg' width={100} height={100} alt='temas' />
             <p className='mt-4 fw-bold'>Sector industrial</p>
           </Col>
         </Row>        
