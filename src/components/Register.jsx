@@ -108,27 +108,25 @@ export function Register () {
         <h1 className='fw-bold text-center'> FORO NEARSHORING</h1>
         <p className='foro-frase mt-3'>Retos y oportunidades para Guanajuato.</p>
         <h2>¡No pierdas la oportunidad de estar con los especialistas <br></br> actuales del<strong style={{color: '#FEBE33'}}> Nearshoring</strong> y conoce las últimas tendencias!</h2>
-        <p className='foro-frase mt-5'> Analizaremos las áreas de aprovechamiento en este relevante tema que genera empleos, inversión extranjera, infraestructura y desarrollo en la Industria Guanajuatense.</p>
+        <p className='foro-frase mt-3'> Analizaremos las áreas de aprovechamiento en este relevante tema que genera empleos, inversión extranjera, infraestructura y desarrollo en la Industria Guanajuatense.</p>
         <div className='foro-date'>
           <div>
             <p className='border-end'><strong>05</strong><br />
               <small>Octubre</small>
             </p>
-
           </div>
           <div>
             <p className='border-end'>
               <strong>13:30 - 18:30</strong><br />
               <small>HRS</small>
             </p>
-
           </div>
           <div>
             <p><strong>POLIFORUM</strong><br />
               <small>LEÓN</small>
             </p>
           </div>
-        </div> <br />
+        </div><br />
         <Button className='boton-registro' href='#registro' variant='danger'>REGISTRATE GRATIS</Button>
         </Container>
         </div>
