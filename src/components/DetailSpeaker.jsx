@@ -24,7 +24,7 @@ export function DetailSpeaker (props) {
 
           </Col>
           <Col md={8} className='my-auto'>
-            <h5 className='fw-bold text-danger'>Semblanza</h5>
+            <h5 className='fw-bold text-danger'>Acerca de</h5>
             <p>
               {props?.speaker?.sketch || props?.speaker?.resume}
             </p>
