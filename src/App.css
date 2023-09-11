@@ -1,3 +1,16 @@
+/* menu de navegación */
+.menu{ background-color: rgb(0, 0, 0);}
+
+.menu a{
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+}
+
+.menu-item:hover {color:#febe33; }
+.navbar-nav .nav-link.active{color: #febe33;}
+
+
 .enfoques{
   background: black;
   padding: 10px;

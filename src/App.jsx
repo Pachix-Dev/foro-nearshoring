@@ -17,13 +17,7 @@ export function App () {
           </Routes>
         </div>
       </div>
-      <footer className=''>
-        {/* <Container>
-          <div className='d-inline-block text-center'>
-            <img src='/foro-nearshoring/igecoLogo.webp' alt='igeco' width={300} />
-            <img src='/foro-nearshoring/GTO 200 WT.webp' alt='gto-200años' width={130} />
-          </div>
-        </Container> */}
+      <footer>
         <Container>
           <div class='d-flex bd-highlight'>
             <div class=' bd-highlight' style={{ width: '200px' }}><img src='/foro-nearshoring/igeco_bn.webp' alt='igeco' className='w-100' /></div>

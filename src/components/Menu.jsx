@@ -12,9 +12,9 @@ export function Menu () {
       <Navbar className='menu'>
         <Container>          
           <Nav className="ms-auto">
-            <Nav.Link href="#registro">Registro</Nav.Link>
-            <Nav.Link href="#ponentes">Ponentes</Nav.Link>
-            <Nav.Link href="#programa">Programa</Nav.Link>
+            <Nav.Link className='menu-item' href='#registro'>Registro</Nav.Link>
+            <Nav.Link className='menu-item' href='#ponentes'>Ponentes</Nav.Link>
+            <Nav.Link className='menu-item' href='#programa'>Programa</Nav.Link>
           </Nav>
         </Container>
       </Navbar>  
