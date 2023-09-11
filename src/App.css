@@ -10,6 +10,15 @@
 .menu-item:hover {color:#febe33; }
 .navbar-nav .nav-link.active{color: #febe33;}
 
+.boton-registro{
+  width: 400px;
+  height: 55px;
+  font-size: 25px;
+  font-weight: 700;
+  text-shadow: none;
+}
+
+.boton-registro{ box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.486);}
 
 .enfoques{
   background: black;
@@ -88,9 +97,21 @@ h1 {
   padding: 0;
 }
 
-.btn {
+/* .btn {
   background-color: black;
   color: white;
+} */
+
+.btn {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  transition: box-shadow 0.3s;
+}
+
+.btn:hover {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5); 
 }
 
 .Ticket {
@@ -185,5 +206,9 @@ footer {
 
   .foro-date div {
     padding: 20px 5px;
+  }
+
+  .boton-registro{
+    width: auto;
   }
 }

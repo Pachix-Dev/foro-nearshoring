@@ -128,8 +128,8 @@ export function Register () {
               <small>LEÓN</small>
             </p>
           </div>
-        </div>
-        <p><strong>Entrada gratuita</strong></p>          
+        </div> <br />
+        <Button className='boton-registro' href='#registro' variant='danger'>REGISTRATE GRATIS</Button>
         </Container>
         </div>
         <Container className='mt-5'>
