@@ -7,7 +7,7 @@ const programITM = {
           duration: '45 min',
           event: 'Inauguración y bienvenida',
           name: 'Bernd Rohde |  Wolfgang Dold | Luigi De Chia',
-          davatar: '',
+          avatar: '',
           avatar2: '/foro-nearshoring/speakers/BerndRohde.webp',
           avatar3: '/foro-nearshoring/speakers/WolfgangDold.webp',
           avatar4: '/foro-nearshoring/speakers/LuigiChia.webp',
