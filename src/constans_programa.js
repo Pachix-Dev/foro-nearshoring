@@ -8,7 +8,8 @@ const programITM = {
           event: 'Inauguración y bienvenida',
           name: 'Bernd Rohde',
           avatar: '',
-          avatar2: '/foro-nearshoring/speakers/BerndRohde.webp',        
+          avatar2: '/foro-nearshoring/speakers/BerndRohde.webp',
+          avatar3: '',        
           rol: 'CEO Italian German Exhibition Company Mexico | Embajador de Alemania en México| Embajador de Italia en México',
         },
         {
@@ -17,7 +18,9 @@ const programITM = {
           duration: '45 min',
           event: 'Foro Embajadores, una visión global del Nearshoring',
           name: '',
-          avatar: '',        
+          avatar: '',
+          avatar2: '',
+          avatar3: '',                
           rol: ' Embajador de la Unión Europa en México | Embajador de Alemania en México | Embajador de Italia en México',
         },
         {
@@ -27,7 +30,10 @@ const programITM = {
           duration: '45 min',
           event: 'Casos de éxito que han aprovechado el Nearshoring',
           name: 'Luz María de la Mora',
-          avatar: '/foro-nearshoring/speakers/LuzMora.webp',          
+          avatar: '/foro-nearshoring/speakers/LuzMora.webp',
+          avatar2: '',
+          avatar3: '',
+          avatar4: '',          
           rol: 'Secretario de Desarrollo Económico Sustentable de Guanajuato | Ex-subsecretaria de Comercio Exterior | Ministro Consejero de la Unión Europea en México | CEO Witzenmann',
         },
         {
@@ -52,7 +58,8 @@ const programITM = {
           name: 'Claudia Esteves | José Zozaya |  Armando Cortés ',
           avatar: '/foro-nearshoring/speakers/ClaudiaEsteves.webp',
           avatar2: '/foro-nearshoring/speakers/JoseGuillermo.webp',
-          avatar3: '/foro-nearshoring/speakers/ArmandoCortes.webp',          
+          avatar3: '/foro-nearshoring/speakers/ArmandoCortes.webp',
+          avatar4: '',          
           rol: 'Presidenta AMPIP | Presidente AMIA | Director General INA | Presidente Toyota Motor México',
         },
         {
