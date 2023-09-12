@@ -112,7 +112,7 @@ export function Register () {
         <div className='foro-date'>
           <div>
             <p className='border-end'><strong>05</strong><br />
-              <small>Octubre</small>
+              <small>octubre</small>
             </p>
           </div>
           <div>
@@ -127,7 +127,7 @@ export function Register () {
             </p>
           </div>
         </div><br />
-        <Button className='boton-registro' href='#registro' variant='danger'>REGISTRATE GRATIS</Button>
+        <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE GRATIS</Button>
         </Container>
         </div>
         <Container className='mt-5'>

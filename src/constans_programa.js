@@ -11,7 +11,7 @@ const programITM = {
           avatar2: '/foro-nearshoring/speakers/BerndRohde.webp',
           avatar3: '/foro-nearshoring/speakers/WolfgangDold.webp',
           avatar4: '/foro-nearshoring/speakers/LuigiChia.webp',
-          rol: 'CEO Italian German Exhibition Company Mexico | Embajador de Alemania | Embajador de Italia ',
+          rol: 'CEO Italian German Exhibition Company Mexico | Embajador de Alemania en México| Embajador de Italia en México',
         },
         {
           id: 0,
@@ -23,7 +23,7 @@ const programITM = {
           avatar2: '/foro-nearshoring/speakers/GautierMignot.webp',
           avatar3: '/foro-nearshoring/speakers/WolfgangDold.webp',
           avatar4: '/foro-nearshoring/speakers/LuigiChia.webp',
-          rol: ' CEO Italian German Exhibition Company | Embajador de Alemania | Embajador de Italia ',
+          rol: ' Embajador de la Unión Europa en México | Embajador de Alemania en México | Embajador de Italia en México',
         },
         {
           id: 0,
@@ -36,7 +36,7 @@ const programITM = {
           avatar2: '/foro-nearshoring/speakers/LuzMora.webp',
           avatar3: '/foro-nearshoring/speakers/JorgeAznar.webp',
           avatar4: '/foro-nearshoring/speakers/CarlosTalamantes.webp',
-          rol: 'Secretario de Desarrollo Económico Sustentable | Ex-subsecretaria de Comercio Exterior | Ministro Consejero de la Unión Europea en México | CEO Witzenmann',
+          rol: 'Secretario de Desarrollo Económico Sustentable de Guanajuato | Ex-subsecretaria de Comercio Exterior | Ministro Consejero de la Unión Europea en México | CEO Witzenmann',
         },
         {
           id: 1,
