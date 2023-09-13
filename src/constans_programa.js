@@ -9,7 +9,8 @@ const programITM = {
           name: 'Bernd Rohde',
           avatar: '/foro-nearshoring/speakers/BerndRohde.webp',
           avatar2: '',
-          avatar3: '',        
+          avatar3: '',
+          avatar4: '',          
           rol: 'CEO Italian German Exhibition Company Mexico | Embajador de Alemania en México| Embajador de Italia en México',
         },
         {
@@ -20,7 +21,8 @@ const programITM = {
           name: '',
           avatar: '',
           avatar2: '',
-          avatar3: '',                
+          avatar3: '',
+          avatar4: '',                  
           rol: ' Embajador de la Unión Europa en México | Embajador de Alemania en México | Embajador de Italia en México',
         },
         {
