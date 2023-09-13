@@ -46,7 +46,7 @@ export function Program () {
                           <div className='w-100'>
                             <h2>{program.event}</h2>
                             <p>{program.name}</p>
-                            <p>{program.rol}</p>
+                            {/*<p>{program.rol}</p>*/}
                           </div>
                           <div className='d-inline-flex img-responsive'>
                           {
