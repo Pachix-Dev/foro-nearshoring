@@ -44,11 +44,7 @@ const programITM = {
           hour: '16:00 hrs',
           duration: '45 min',
           event: 'Tendencias del nearshoring hacia la segunda mitad de la década',
-<<<<<<< HEAD
           name: 'Luis Ernesto Rojas Ávila | Esaú Garza |  Marco Villarreal |  Ari-Ben Saks | Selene Diez Reyes',
-=======
-          name: 'Luis Ernesto Rojas Ávila | Esaú Garza |  Ari-Ben Saks',
->>>>>>> 222b1fa3a6848039f46ecbeed40b58fce88b5228
           avatar: '/foro-nearshoring/speakers/LuisErnestoRojas.webp',
           avatar2: '/foro-nearshoring/speakers/EsauGarza.webp',
           avatar3: '/foro-nearshoring/speakers/AriBen.webp',
