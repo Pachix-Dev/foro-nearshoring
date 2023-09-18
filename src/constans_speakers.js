@@ -53,6 +53,15 @@ const speakers = [
         avatar: '/foro-electromovilidad/speakers/EsauGarza.webp',
         sketch: 'Licenciado en Comercio Exterior, fue Consejero Comercial en la Embajada de México en Japón (2008 - 2013) y de Australia (2015 - 2019). Fue Secretario de Desarrollo Económico para el estado de Aguascalientes. Destaca por su experiencia y trayectoria en la promoción de México como destino de inversión con un fuerte enfoque a la industria automotriz y de manufacturas avanzadas. Ha impartido ponencias en relación con las técnicas de negociación aplicables a la cultura japonesa en universidades y foros, asimismo ha participado en seminarios sobre oportunidades de negocios en sectores estratégicos ante empresarios. Actualmente, es director de la empresa Alternativas y Soluciones Múltiples del Sureste (ASMS) con base en Mérida, desde donde hace sinergia con diferentes estados del país diseñando estrategias de promoción a nivel internacional y atracción de proyectos de inversión para complementar cadenas de valor. Funge también como colaborador y consultor experto para el Centro Internacional de Excelencia para Latinoamérica y el Caribe, de las Naciones Unidas.'
       },
+      {
+        id: 7,
+        conference: '',
+        name: 'Ing. Selene Diez Reyes',
+        company: 'Forte Innovation Consulting',
+        rol: 'CEO & Founder',
+        avatar: '/foro-nearshoring/speakers/SeleneDiezReyes.webp',
+        sketch: 'Empresaria con más de 10 años de experiencia en consultoríaestratégica aplicada a la innovación y el desarrollo tecnológico. Expertaen el diseño e implementación de proyectos e iniciativas de innovacióntecnológica orientados a la obtención de resultados de alto impacto. Cuenta con especializaciones tales cómo: Gobierno Electrónico, BigData, Datos Abiertos y Prospectiva. Ha desempeñado diversos cargos públicos donde ha influidodirectamente en la construcción de políticas públicas e iniciativas dedigitalización en distintos niveles de gobierno. Es Fundadora y DirectoraGeneral de Forte Innovation Consulting, agencia de transformacióndigital especialista en servicios tecnológicos de valor agregado parasectores estratégicos cómo logística, manufactura, finanzas y sectorpúblico.También es Fundadora y Directora General de Metaphorce by ForteInnovation, startup cuya misión es profesionalizar y vincular talentomexicano globalmente competitivo en tecnologías de la información. Actualmente funge cómo asesora en transformación digital para variasinstituciones públicas y privadas del país, fue Presidenta del Clúster deTecnologías de Información del Estado de Guanajuato en el período2020-2023, Presidenta del consejo de innovación del Municipio de León.parte del Consejo de desarrollo Económico del Municipio de León y Global Ambassador de Singularity University Chapter León.'
+      },
 ]
   export { speakers }
   
