@@ -62,6 +62,15 @@ const speakers = [
         avatar: '/foro-nearshoring/speakers/LuzMariaMora.webp',
         sketch: 'De diciembre de 2018 a octubre de 2022 se desempeñó como Subsecretaria de Comercio Exterior en la Secretaría de Economía de México donde fue responsable de la política comercial de México. Ha sido Jefe de Unidad de Relaciones Económicas y Cooperación Internacional en la Secretaría de Relaciones Exteriores y Jefe de Unidad de Negociaciones Comerciales Internacionales en la Secretaría de Economía. Dirigió las oficinas de la Secretaría de Economía ante la Unión Europea en Bruselas y ante la ALADI en Montevideo. Se desempeñó como consejera económica en la Embajada de México en Washington, DC. Formó parte del equipo negociador del TLCAN. Cuenta con una licenciatura en Relaciones Internacionales de El Colegio de México, una Maestría en Economía Política Internacional de la Universidad de Carleton, en Canadá, y un Doctorado en Ciencias Políticas de la Universidad de Yale.'
       },
+      {
+        id: 9,
+        conference: '',
+        name: 'Ramón Alfaro Gómez',
+        company: 'Secretaría de Desarrollo Económico Sustentable del Estado de Guanajuato (SDES)',
+        rol: 'Secretario de Desarrolo Económico Sustentable',
+        avatar: '/foro-nearshoring/speakers/RamonAlfaro.webp',
+        sketch: 'Cuenta en su formación académica complementaria con diversos diplomados, cursos, seminarios y talleres; en temas de Economía, Competitividad, Proyectos de Inversión, Liderazgo y Articulación Productiva. Ha impartido y colaborado en diversos cursos y mesas de trabajo en el ámbito de negocios, adminsitración pública y economía. Actualmente es profesor de tiempo parcial en la Universidad Autónoma de México, Campus León. En la Licenciatura de Economía Industrial. Impartiendo las materias de: Modelo de Negocios, Política de desarrollo Social y Diseño y Evaluación de Políticas Públicas.'
+      },
 ]
   export { speakers }
   
