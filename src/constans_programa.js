@@ -34,7 +34,7 @@ const programITM = {
           name: 'Esaú Garza | Jorge Peydro Aznar | Agustín García Rechy',
           avatar: '/foro-nearshoring/speakers/EsauGarza.webp',
           avatar2: '/foro-nearshoring/speakers/JorgeAznar.webp',
-          avatar3: '',
+          avatar3: '/foro-nearshoring/speakers/AgustinGarcia.webp',
           avatar4: '',          
           rol: 'CEO ASMS | Ministro Consejero de la Unión Europea en México | COMCE Vicepresidente para Asia y Oceanía',
         },
