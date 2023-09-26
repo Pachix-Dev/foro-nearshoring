@@ -80,6 +80,15 @@ const speakers = [
         avatar: '/foro-nearshoring/speakers/AgustinGarcia.webp',
         sketch: 'Agustín García Rechy, Vicepresidente de la Sección Empresarial Internacional para Asia y Oceanía del Consejo Empresarial Mexicano de Comercio Exterior, Inversión y Tecnología (COMCE) desde enero de 2020, con una trayectoria sólida en el sector privado y relaciones internacionales. Anteriormente, ocupó el cargo de Director desde 2013. Sus responsabilidades incluyen el desarrollo de proyectos de negocios y la representación de empresas mexicanas en AsiaPacífico, así como la creación de Acuerdos de Cooperación. Desde 2020, es Miembro Alterno del Consejo Asesor de Negocios del Foro de Cooperación Económica Asia Pacífico - APEC (ABAC). Es fundador y Vicepresidente de la Federación de Negocios América Latina y El Caribe – China (FENLACC) desde 2021. Agustín tiene experiencia como organizador y delegado en eventos globales y regionales, así como en la promoción de negocios México-Asia Pacífico. Además, ha sido emprendedor y participado en proyectos académicos y sociales. Habla inglés avanzado y chino mandarín básico.'
       },
+      {
+        id: 11,
+        conference: '',
+        name: 'Pola Grijalva',
+        company: 'World trade & Investmente Group',
+        rol: 'CEO',
+        avatar: '/foro-nearshoring/speakers/PaolaGrijalva.webp',
+        sketch: 'Pola Grijalva, una economista con más de 36 años de experiencia en consultoría para la internacionalización de empresas, es socia fundadora de World Trade and Investment Group, una firma con presencia global en ciudades clave. Su trayectoria se centra en facilitar operaciones comerciales entre América Latina, México, la Unión Europea, América del Norte y Asia. Ha asesorado a empresas líderes en diversas industrias, incluyendo Mattel, Chevron, Huawei y muchas más. Además, Pola ha desempeñado roles destacados en organizaciones clave. Fundó el Centro de Estudios Económicos México-Unión Europea y fue Vicepresidenta Ejecutiva fundadora de la Cámara de Comercio y Tecnología de China en México. Es Auditora Certificada de la Alianza Empresarial para el Comercio Seguro (BASC) en Washington DC. Ha presidido la Cámara de Comercio y Tecnología México-China y ahora lidera el Consejo Asesor de la ChinaCham. En 2020, se convirtió en miembro del Comité de Expertos Comerciales Internacionales del Tribunal Popular Supremo de China. Pola también ha participado en conferencias internacionales y entrevistas con medios de comunicación líderes en América y China. Es una figura respetada en finanzas, fusiones y adquisiciones, comercio internacional e inversión.'
+      }
 ]
   export { speakers }
   

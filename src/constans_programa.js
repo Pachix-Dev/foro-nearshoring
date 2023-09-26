@@ -60,9 +60,9 @@ const programITM = {
           name: 'José Zozaya | Armando Cortés |  Pola Grijalva ',
           avatar: '/foro-nearshoring/speakers/JoseGuillermo.webp',
           avatar2: '/foro-nearshoring/speakers/ArmandoCortes.webp',
-          avatar3: '',
+          avatar3: '/foro-nearshoring/speakers/PaolaGrijalva.webp',
           avatar4: '',          
-          rol: 'Presidente AMIA | Director General INA | Ex subsecretaria de Comercio Exterior',
+          rol: 'Presidente AMIA | Director General INA | CEO',
         },
         // {
         //   id: 1,
