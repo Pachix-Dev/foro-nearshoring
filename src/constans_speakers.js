@@ -75,8 +75,8 @@ const speakers = [
         id: 10,
         conference: '',
         name: 'Agustín García Rechy',
-        company: 'Secretaría de Desarrollo Económico Sustentable del Estado de Guanajuato (SDES)',
-        rol: 'Secretario de Desarrolo Económico Sustentable',
+        company: 'Consejo Empresarial Mexicano de Comercio Exterior, Inversión y Tecnología, A.C. (COMCE)',
+        rol: 'Vicepresidente de la Sección Empresarial Internacional para Asia y Oceanía',
         avatar: '/foro-nearshoring/speakers/AgustinGarcia.webp',
         sketch: 'Agustín García Rechy, Vicepresidente de la Sección Empresarial Internacional para Asia y Oceanía del Consejo Empresarial Mexicano de Comercio Exterior, Inversión y Tecnología (COMCE) desde enero de 2020, con una trayectoria sólida en el sector privado y relaciones internacionales. Anteriormente, ocupó el cargo de Director desde 2013. Sus responsabilidades incluyen el desarrollo de proyectos de negocios y la representación de empresas mexicanas en AsiaPacífico, así como la creación de Acuerdos de Cooperación. Desde 2020, es Miembro Alterno del Consejo Asesor de Negocios del Foro de Cooperación Económica Asia Pacífico - APEC (ABAC). Es fundador y Vicepresidente de la Federación de Negocios América Latina y El Caribe – China (FENLACC) desde 2021. Agustín tiene experiencia como organizador y delegado en eventos globales y regionales, así como en la promoción de negocios México-Asia Pacífico. Además, ha sido emprendedor y participado en proyectos académicos y sociales. Habla inglés avanzado y chino mandarín básico.'
       },
