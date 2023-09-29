@@ -70,7 +70,7 @@ export function Pass () {
                     <div className='text-center'>
                       <h2>Foro Nearshoring</h2>
                       5 de octubre de 2023 13:30 HRS<br />
-                      <img src='/foro-electromovilidad/igecoLogo.webp' alt='igeco' width={300} className='mt-4' />
+                      <img src='/foro-nearshoring/igecoLogo.webp' alt='igeco' width={300} className='mt-4' />
                     </div>
                   </div>
                 </div>
