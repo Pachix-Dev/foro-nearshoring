@@ -127,7 +127,7 @@ export function Register () {
             </p>
           </div>
         </div><br />
-        <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE GRATIS</Button>
+        <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE AHORA</Button>
       </Container>
     </div>
         <Container className='mt-5'>
@@ -261,7 +261,7 @@ export function Register () {
           <Button variant='light' type='submit' className='mt-3 fw-bold'>
             {sendStatus
               ? <><Spinner as='span' animation='border' size='sm' role='status' aria-hidden='true' /><span> Loading...</span></>
-              : 'Obtén pase gratis'}
+              : 'OBTENER PASE'}
           </Button>
         </Form>   
         </Container>    
