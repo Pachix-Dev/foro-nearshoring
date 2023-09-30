@@ -264,7 +264,22 @@ export function Register () {
               : 'OBTENER PASE'}
           </Button>
         </Form>   
-        </Container>    
+        </Container>  
+        <Container fluid className='justify-content-md-center mt-5 py-5' style={{backgroundColor:'hsla(240, 50%, 50%, 0.5)'}}>
+          <Row>
+            <Col sm={0} md={3} lg={3} className='text-center'></Col>
+            <Col sm={12} md={6} lg={6} className='text-center'>
+                <div className='w-100'>
+                  <h2>CONTACTO</h2><br /><br />
+                  <img src="/foro-nearshoring/FernandoAranda.webp" alt="fernando-aranda" className='pb-4' style={{width:'300px'}} />
+                  <h3>Fernando Aranda</h3>
+                  <h5>Manager Foro Nearshoring</h5>
+                  <p><a href='mailto:fernando.aranda@hfmexico.mx' className='link link-correo text-center' style={{color:'#ffff', fontSize:'18px', textDecoration: 'none'}}>fernando.aranda@hfmexico.mx</a></p>
+                </div>
+            </Col>
+            <Col sm={0} md={3} lg={3} className='text-center'></Col>
+          </Row>
+        </Container>
     </>
   )
 }
