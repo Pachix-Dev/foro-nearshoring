@@ -19,10 +19,10 @@ export function App () {
       </div>
       <footer>
         <Container>
-          <div class='d-flex bd-highlight'>
-            <div class=' bd-highlight' style={{ width: '200px' }}><img src='/foro-nearshoring/igeco_bn.webp' alt='igeco' className='w-100' /></div>
-            <div class=' bd-highlight' style={{ width: '200px' }}><img src='/foro-nearshoring/deutsche_messe_bn.webp' alt='igeco' className='w-100' /></div>
-            <div class=' ms-auto' style={{ width: '200px' }}><img src='/foro-nearshoring/logo-gto.webp' alt='gto-200años' className='w-100' /></div>
+          <div className='d-flex bd-highlight'>
+            <div className=' bd-highlight' style={{ width: '200px' }}><img src='/foro-nearshoring/igeco_bn.webp' alt='igeco' className='w-100' /></div>
+            <div className=' bd-highlight' style={{ width: '200px' }}><img src='/foro-nearshoring/deutsche_messe_bn.webp' alt='igeco' className='w-100' /></div>
+            <div className=' ms-auto' style={{ width: '200px' }}><img src='/foro-nearshoring/logo-gto.webp' alt='gto-200años' className='w-100' /></div>
           </div>
         </Container>
       </footer>
