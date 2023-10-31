@@ -104,7 +104,7 @@ export function Register () {
     <Menu />
     <div className='vh-100'>
         <video className='bg-nearshoring' autoPlay muted loop src='/foro-nearshoring/bgNearshoring.webm' />
-      <Container className='my-5 py-5 nearshoring-text'>
+      <Container className='nearshoring-text'>
         <h1 className='fw-bold text-center my-2'> FORO NEARSHORING</h1><br />
         <p className='foro-frase mt-3'>Retos y oportunidades para Guanajuato.</p>
         <h2>¡No pierdas la oportunidad de estar con los especialistas <br></br> actuales del<strong style={{color: '#FEBE33'}}> Nearshoring</strong> y conoce las últimas tendencias!</h2>
@@ -261,7 +261,7 @@ export function Register () {
           <Button variant='light' type='submit' className='mt-3 fw-bold'>
             {sendStatus
               ? <><Spinner as='span' animation='border' size='sm' role='status' aria-hidden='true' /><span> Loading...</span></>
-              : 'OBTENER PASE'}
+              : 'ENVIAR'}
           </Button>
         </Form>   
         </Container>  
