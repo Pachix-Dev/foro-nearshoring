@@ -105,7 +105,7 @@ export function Register () {
     <div className='vh-100'>
         <video className='bg-nearshoring' autoPlay muted loop src='/foro-nearshoring/bgNearshoring.webm' />
       <Container className='nearshoring-text'>
-        <h1 className='fw-bold text-center my-2'> FORO NEARSHORING</h1><br />
+        <h1 className='fw-bold text-center py-5'> FORO NEARSHORING</h1><br />
         <p className='foro-frase mt-3'>Retos y oportunidades para Guanajuato.</p>
         <h2>¡No pierdas la oportunidad de estar con los especialistas <br></br> actuales del<strong style={{color: '#FEBE33'}}> Nearshoring</strong> y conoce las últimas tendencias!</h2>
         <p className='foro-frase mt-3'> Analizaremos las áreas de aprovechamiento en este relevante tema que genera empleos, inversión extranjera, infraestructura y desarrollo en la Industria Guanajuatense.</p>
