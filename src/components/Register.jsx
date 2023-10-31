@@ -104,12 +104,12 @@ export function Register () {
     <Menu />
     <div className='vh-100'>
         <video className='bg-nearshoring' autoPlay muted loop src='/foro-nearshoring/bgNearshoring.webm' />
-      <Container className='pt-5 mb-3 nearshoring-text'>
-        <h1 className='fw-bold text-center'> FORO NEARSHORING</h1>
+      <Container className='my-5 py-5 nearshoring-text'>
+        <h1 className='fw-bold text-center my-2'> FORO NEARSHORING</h1><br />
         <p className='foro-frase mt-3'>Retos y oportunidades para Guanajuato.</p>
         <h2>¡No pierdas la oportunidad de estar con los especialistas <br></br> actuales del<strong style={{color: '#FEBE33'}}> Nearshoring</strong> y conoce las últimas tendencias!</h2>
         <p className='foro-frase mt-3'> Analizaremos las áreas de aprovechamiento en este relevante tema que genera empleos, inversión extranjera, infraestructura y desarrollo en la Industria Guanajuatense.</p>
-        <div className='foro-date'>
+        {/* <div className='foro-date'>
           <div>
             <p className='border-end'><strong>05</strong><br />
               <small>octubre</small>
@@ -126,8 +126,8 @@ export function Register () {
               <small>LEÓN</small>
             </p>
           </div>
-        </div><br />
-        <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE AHORA</Button>
+        </div><br /> */}
+        {/* <Button className='boton-registro' href='#registro' variant='danger'>REGÍSTRATE AHORA</Button> */}
       </Container>
     </div>
         <Container className='mt-5'>
@@ -179,7 +179,7 @@ export function Register () {
         />
       
 
-      <h1 className='mt-5 text-light' id="registro">Registro</h1>
+      <h1 className='mt-5 text-light' id="registro">Contáctanos</h1>
       <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit} >
         <Row>
             <Col>
