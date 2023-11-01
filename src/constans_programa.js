@@ -7,7 +7,7 @@ const programITM = {
           duration: '45 min',
           event: 'Inauguración y bienvenida',
           name: 'Ramón Alfaro | Bernd Rohde | Wolfgang Dold ',
-          avatar: '',
+          avatar: '/foro-nearshoring/speakers/RamonAlfaro.webp',
           avatar2: '/foro-nearshoring/speakers/BerndRohde.webp',
           avatar3: '/foro-nearshoring/speakers/WolfgangDold.webp',
           avatar4: '',          
@@ -62,7 +62,8 @@ const programITM = {
           avatar: '/foro-nearshoring/speakers/JoseGuillermo.webp',
           avatar2: '/foro-nearshoring/speakers/ArmandoCortes.webp',
           avatar3: '/foro-nearshoring/speakers/PaolaGrijalva.webp',
-          avatar4: '',          
+          avatar4: '/foro-nearshoring/speakers/AgustinGarcia.webp',  
+          avatar4: '/foro-nearshoring/speakers/EsauGarza.webp',         
           rol: 'Presidente AMIA | Director General INA | Presidente del consejo de administración World Trade & Investment Group | Vicepresidente para Asia y Oceanía COMCE',
         },
         // {
