@@ -1,0 +1,62 @@
+
+.lg-react-element {
+    column-count: 4;
+}
+
+.title-gallery{
+    font-size: 50px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gallery-title{
+    font-family: Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;
+    color: rgb(1,31,60);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.gallery-item {
+    cursor: pointer;
+}
+
+.gallery .pagination {
+    justify-content: end;
+}
+
+.pagination>li>a {
+    background-color: white;
+    color: black;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination>.active>span {
+    color: white;
+    background-color: #050872 !Important;
+    border: solid 1px black !Important;
+}
+
+.gallery{
+    color: transparent;
+}
+
+@media (width < 940px) {
+    .lg-react-element{
+        column-count: 3;
+    }
+}
+@media (width < 425px) {
+    .lg-react-element{
+        column-count: 2;
+    }
+    .title-gallery{
+        font-size: 30px ;
+    }
+}

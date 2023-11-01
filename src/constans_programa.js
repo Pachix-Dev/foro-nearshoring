@@ -62,8 +62,8 @@ const programITM = {
           avatar: '/foro-nearshoring/speakers/JoseGuillermo.webp',
           avatar2: '/foro-nearshoring/speakers/ArmandoCortes.webp',
           avatar3: '/foro-nearshoring/speakers/PaolaGrijalva.webp',
-          avatar5: '/foro-nearshoring/speakers/AgustinGarcia.webp',  
-          avatar6: '/foro-nearshoring/speakers/EsauGarza.webp',         
+          avatar4: '/foro-nearshoring/speakers/AgustinGarcia.webp',  
+          avatar5: '/foro-nearshoring/speakers/EsauGarza.webp',         
           rol: 'Presidente AMIA | Director General INA | Presidente del consejo de administración World Trade & Investment Group | Vicepresidente para Asia y Oceanía COMCE',
         },
         // {
