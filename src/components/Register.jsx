@@ -10,6 +10,7 @@ import { speakers } from '../constans_speakers'
 import { DetailSpeaker } from './DetailSpeaker'
 import { Program } from './Program'
 import { Menu } from './Menu'
+import { GalleryPage } from './Gallery/GalleryPage'
 
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
@@ -178,7 +179,7 @@ export function Register () {
           speaker={detailSpeaker}
         />
       
-
+      <GalleryPage />
       <h1 className='mt-5 text-light' id="registro">Contáctanos</h1>
       <Form className='mt-5' id='form-newsletter' onSubmit={handleSubmit} >
         <Row>
