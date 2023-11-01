@@ -8,7 +8,7 @@ import './GalleryPage.css'
 export function GalleryPage () {
     return (
         <>
-        <center><h1 id='galeria' className='title-gallery'>Galeria <br /> Foro de Electromovilidad 2023</h1></center>
+        <center><h1 id='galeria' className='title-gallery'>GALERIA <br /> FORO NEARSHORING 2023</h1></center>
             <Container className='galleryPage mt-5'>
             <GalleryYear gallery={gallery2023} />
             </Container>
