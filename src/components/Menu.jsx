@@ -11,8 +11,8 @@ export function Menu () {
       <Navbar expand='lg' className='menu py-2'>
         <Container>
           <Navbar.Brand>
-            <img src='/igeco_bn.webp' alt='igeco' width='170' className='company-logo' />
-            <img src='/deutsche_messe_bn.webp' alt='deutsche-messe' width='170' className='company-logo' />
+            <img src='/foro-nearshoring/igeco_bn.webp' alt='igeco' width='170' className='company-logo' />
+            <img src='/foro-nearshoring/deutsche_messe_bn.webp' alt='deutsche-messe' width='170' className='company-logo' />
           </Navbar.Brand>
           {/* <Navbar.Toggle onClick={handleShow} /> */}
           <Navbar.Offcanvas
