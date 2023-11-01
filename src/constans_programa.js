@@ -22,7 +22,8 @@ const programITM = {
           avatar: '',
           avatar2: '/foro-nearshoring/speakers/JorgeAznar.webp',
           avatar3: '/foro-nearshoring/speakers/WolfgangDold.webp',
-          avatar4: '/foro-nearshoring/speakers/RamonAlfaro.webp',                  
+          avatar4: '/foro-nearshoring/speakers/RamonAlfaro.webp',
+          avatar5: '',                    
           rol: 'Embajador, Jefe de la delegación de la Unión Europea en México | Embajador de la República Federal de Alemania en México | Secretario de Desarrollo Económico Sustentable de Guanajuato',
         },
         {
@@ -50,6 +51,7 @@ const programITM = {
           avatar2: '/foro-nearshoring/speakers/LuzMariaMora.webp',
           avatar3: '/foro-nearshoring/speakers/SeleneDiezReyes.webp',
           avatar4: '/foro-nearshoring/speakers/AriBen.webp',
+          avatar5: '',  
           rol: 'Nearshoring Specialist EY | Director General COFOCE | Exsubsecretaria de Comercio Exterior | CEO & Founder de Forte Innovation Consulting | Ernst & Young Global Specialist',
         },
         {
@@ -62,8 +64,8 @@ const programITM = {
           avatar: '/foro-nearshoring/speakers/JoseGuillermo.webp',
           avatar2: '/foro-nearshoring/speakers/ArmandoCortes.webp',
           avatar3: '/foro-nearshoring/speakers/PaolaGrijalva.webp',
-          avatar4: '/foro-nearshoring/speakers/AgustinGarcia.webp',  
-          avatar5: '/foro-nearshoring/speakers/EsauGarza.webp',         
+          avatar4: '/foro-nearshoring/speakers/AgustinGarcia.webp', 
+          avatar5: '',             
           rol: 'Presidente AMIA | Director General INA | Presidente del consejo de administración World Trade & Investment Group | Vicepresidente para Asia y Oceanía COMCE',
         },
         // {
