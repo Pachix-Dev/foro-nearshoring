@@ -10,7 +10,8 @@ const programITM = {
           avatar: '/foro-nearshoring/speakers/RamonAlfaro.webp',
           avatar2: '/foro-nearshoring/speakers/BerndRohde.webp',
           avatar3: '/foro-nearshoring/speakers/WolfgangDold.webp',
-          avatar4: '',          
+          avatar4: '',   
+          avatar5: '',         
           rol: 'Secretario de Desarrollo Económico Sustentable de Guanajuato | CEO Italian German Exhibition Company Mexico | Embajador de la República Federal de Alemania en México',
         },
         {
