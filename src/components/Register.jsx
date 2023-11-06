@@ -275,7 +275,7 @@ export function Register () {
                   <img src="/foro-nearshoring/FernandoAranda.webp" alt="fernando-aranda" className='pb-4' style={{width:'300px'}} />
                   <h3>Fernando Aranda</h3>
                   <h5>Manager Foro Nearshoring</h5>
-                  <p><a href='mailto:fernando.aranda@hfmexico.mx' className='link link-correo text-center' style={{color:'#ffff', fontSize:'18px', textDecoration: 'none'}}>fernando.aranda@hfmexico.mx</a></p>
+                  <p><a href='mailto:fernando.aranda@igeco.mx' className='link link-correo text-center' style={{color:'#ffff', fontSize:'18px', textDecoration: 'none'}}>fernando.aranda@igeco.mx</a></p>
                 </div>
             </Col>
             <Col sm={0} md={3} lg={3} className='text-center'></Col>
