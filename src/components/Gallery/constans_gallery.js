@@ -1,4 +1,3 @@
-/* eslint-disable indent */
 const gallery2023 = [
   '/foro-nearshoring/gallery/foro_nearshoring_1.webp',
   '/foro-nearshoring/gallery/foro_nearshoring_2.webp',
